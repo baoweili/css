@@ -1,0 +1,16 @@
+/* 
+行级元素水平居中 
+text-align属性会让子元素继承
+对文本/行内元素/行内块级元素有效
+文本和行内直接居中
+行内块级元素则需要看情况，倘若宽度跟不大于父级元素宽度则会居中
+*/
+.parent {
+  text-align: center;
+}
+
+/* 也可以用display: inline-block来转化*/
+.son {
+  width: 200px;
+  background-color: orange;
+}

@@ -1,0 +1,8 @@
+/*
+设置tabl-cell的元素，宽度和高度的值设置百分比无效，
+需要给它的父元素设置display: table; 才生效
+*/
+.parent {
+  display: table-cell;
+  vertical-align: middle;
+}

@@ -1,0 +1,8 @@
+/*
+flex布局实现水平居中
+*/
+
+.parent {
+  display: flex;
+  justify-content: center;
+}

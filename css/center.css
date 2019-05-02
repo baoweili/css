@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.parent {
+  width: 400px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.son {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(104, 92, 92);
+}

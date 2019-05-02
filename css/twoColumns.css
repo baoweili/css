@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.parent {
+  background-color: rgb(111, 111, 184);
+}
+
+.left {
+  background-color: yellow;
+  height: 200px;
+}
+
+.right {
+  background-color: rgb(21, 21, 134);
+  height: 200px;
+}
+
+/* .test1 {
+  height: 50px;
+  background-color: navajowhite;
+} */
+
+/* .left::after,
+.right::after {
+  content: '';
+  display: block;
+  clear: both;
+} */
+
+.footer {
+  background-color: lawngreen;
+}

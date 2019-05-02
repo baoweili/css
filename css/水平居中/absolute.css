@@ -1,0 +1,14 @@
+/*
+绝对定位实现
+也可以用margin-left来代替transform，但是要知道width
+transform
+*/
+.parent {
+  position: relative; /*针对son3样例*/
+}
+
+.son {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
+}

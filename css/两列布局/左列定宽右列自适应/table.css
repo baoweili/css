@@ -1,0 +1,16 @@
+/*
+单元格margin会失效
+*/
+.parent {
+  width: 100%;
+  display: table;
+}
+
+.left {
+  width: 100px;
+}
+
+.left,
+.right {
+  display: table-cell;
+}

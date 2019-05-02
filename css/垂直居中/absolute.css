@@ -1,0 +1,13 @@
+/*
+利用绝对定位
+*/
+.parent {
+  position: relative;
+}
+
+.son {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+

@@ -1,0 +1,14 @@
+
+.parent {
+  display: table-cell;
+  vertical-align: middle;
+  /* 假如是行内元素就添加这个 */
+  text-align: center; 
+}
+
+.son {
+  /*假如是块级元素就添加这个*/
+  margin: 0 auto; 
+}
+
+

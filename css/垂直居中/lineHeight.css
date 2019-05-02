@@ -1,0 +1,8 @@
+/*
+利用line-height = 自身的height 单行文本
+假如是多行文本 就需要计算一下 例如五行就需要line-height = height / 5
+*/
+
+.parent {
+  line-height: 200px;
+}

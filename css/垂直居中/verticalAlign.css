@@ -1,0 +1,14 @@
+/*
+以img为例
+line-height 和vertical-align配合使用 
+font-size:  0是为了消除content area的影响
+*/
+
+.parent {
+  line-height: 200px;
+  font-size: 0;
+}
+
+.son {
+  vertical-align: middle;
+}

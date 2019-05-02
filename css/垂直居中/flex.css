@@ -1,0 +1,10 @@
+/*
+利用flex实现
+*/
+
+.parent {
+  display: flex;
+  align-items: center;
+}
+
+

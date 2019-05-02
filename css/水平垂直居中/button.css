@@ -1,0 +1,15 @@
+/*
+父元素为button
+先去除button的默认样式
+*/
+.parent {
+  border: none;
+  outline: none;
+}
+
+.son {
+  display: inline-block;
+}
+
+
+

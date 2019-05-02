@@ -1,0 +1,18 @@
+/*
+利用absolute 和 margin实现绝对居中
+*/
+.parent {
+  position: relative;
+}
+
+.son {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+

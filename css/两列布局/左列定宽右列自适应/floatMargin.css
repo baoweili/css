@@ -1,0 +1,9 @@
+.left {
+  /* 左列的宽度固定 */
+  width: 100px; 
+  float: left;
+}
+
+.right {
+  margin-left: 100px;
+}

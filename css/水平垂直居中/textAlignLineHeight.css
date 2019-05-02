@@ -1,0 +1,9 @@
+.parent {
+  text-align: center;
+  line-height: 200px;
+  font-size: 0; /*清楚幽灵空白节点的bug*/
+}
+
+.son {
+  vertical-align: middle;
+}

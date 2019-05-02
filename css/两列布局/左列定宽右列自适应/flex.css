@@ -1,0 +1,15 @@
+
+.parent {
+  display: flex;
+  /* width: 100%; */
+}
+
+.left {
+  width: 100px;
+}
+
+.right {
+  /* 均分剩下的空间 */
+  flex-grow: 1;
+}
+

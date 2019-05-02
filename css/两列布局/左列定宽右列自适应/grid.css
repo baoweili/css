@@ -1,0 +1,8 @@
+/*
+利用强大的grid可以轻易的实现两列布局
+*/
+
+.parent {
+  display: grid;
+  grid-template-columns: 100px 1fr; /*分为两列*/
+}

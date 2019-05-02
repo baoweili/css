@@ -1,0 +1,31 @@
+/*
+圣杯布局
+*/
+.parent {
+  padding: 0 200px 0 100px;
+}
+
+.left {
+  position: relative;
+  left: -100px;
+  width: 100px;
+  float: left;
+  margin-left: -100%;
+}
+
+.center {
+  float: left;
+  width: 100%;
+}
+
+.right {
+  position: relative;
+  right: -200px;
+  width: 200px;
+  float: left;
+  margin-left: -200px; 
+}
+
+.footer {
+  clear: both;
+}

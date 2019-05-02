@@ -1,0 +1,17 @@
+.parent {
+  display: grid;
+  grid-template-columns: 100px 1fr 200px;
+  grid-template-areas: "left center right";
+}
+
+.left { 
+  grid-area: left;
+}
+
+.center {
+  grid-area: center;
+}
+
+.right {
+  grid-area: right;
+}

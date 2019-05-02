@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.left {
+  background-color: yellow;
+  height: 200px;
+}
+
+.center {
+  /* 双飞翼布局时注释掉背景色 */
+  background-color: rgb(231, 120, 120); 
+  height: 200px;
+}
+
+.right {
+  background-color: rgb(21, 21, 134);
+  height: 200px;
+}
+
+.header, 
+.footer{
+  height: 50px;
+  background-color: lawngreen;
+}

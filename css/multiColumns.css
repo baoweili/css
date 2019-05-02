@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.parent {
+  width: 500px;
+}
+
+.column:nth-child(odd) {
+  background-color: yellow;
+}
+
+.column:nth-child(even) {
+  background-color: rgb(231, 120, 120); 
+}
+
+.footer{
+  height: 50px;
+  background-color: lawngreen;
+}

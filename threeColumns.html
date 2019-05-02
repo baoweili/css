@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>三列布局</title>
+  <link href="./css/threeColumns.css" rel="stylesheet" type="text/css">
+  <link href="./css/三列布局/grid.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <!-- 两列固定三列自适应就不赘述了，跟两列布局中的一列固定一列自适应类似 -->
+  <!-- 这里讲的是两侧定宽中间自适应的三列布局 -->
+  <!-- 这里主要实现了双飞翼布局、圣杯布局、grid布局,还有其他的实现例如table、flex、position等,这里不赘述 -->
+  <div class="header">header</div>
+  <div class="parent">
+    <div class="center"><!-- 双飞翼布局时打开center-inner -->
+      <!-- <div class="center-inner"> -->center<!-- </div> -->
+    </div>
+    <div class="left">left</div>
+    <div class="right">right</div>
+  </div>
+  <div class="footer">我是一个footer</div>
+</body>
+</html>

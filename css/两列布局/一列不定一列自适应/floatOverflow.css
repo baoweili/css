@@ -1,0 +1,8 @@
+/* 不设宽度 由内容撑开*/
+.left {
+  float: left;
+}
+
+.right {
+  overflow: hidden;
+}

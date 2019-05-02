@@ -1,0 +1,6 @@
+/* 不设宽度 由内容撑开*/
+.parent {
+  display: grid;
+  /*auto和1fr换一下顺序就是左列自适应,右列不定宽了*/
+  grid-template-columns: auto 1fr; 
+}

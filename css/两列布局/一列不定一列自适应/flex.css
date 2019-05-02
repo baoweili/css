@@ -1,0 +1,8 @@
+/* 不设宽度 由内容撑开*/
+.parent {
+  display: flex;
+}
+
+.right {
+  flex-grow: 1; /*左列不设宽度右列均分剩下的空间*/
+}

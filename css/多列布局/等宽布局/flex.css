@@ -1,0 +1,9 @@
+.parent {
+  display: flex;
+  margin-left: -20px; 
+}
+
+.column {
+  flex-grow: 1;
+  margin-left: 20px;
+}

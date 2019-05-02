@@ -1,0 +1,19 @@
+/*
+四列等宽布局
+*/
+
+.parent {
+  margin-left: -20px;
+}
+
+.column {
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 20px; 
+  background-clip: content-box;
+}
+
+.footer {
+  clear: both;
+}

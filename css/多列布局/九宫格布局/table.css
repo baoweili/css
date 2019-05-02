@@ -1,0 +1,14 @@
+/*九宫格布局*/
+.parent {
+  width: 500px;
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.col {
+  display: table-cell;
+  border: 1px solid black;
+}

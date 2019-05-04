@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: arial;
+}
+
+.project {
+  width: 500px;
+  margin: 100px auto;
+}
+
+.removeItem {
+  max-height: 214px;
+  overflow: hidden;
+}
+
+.item {
+  padding: 5px 0;
+  margin: 10px 0;
+  background: yellow;
+}
+
+.item .removeBtn {
+  float: right;
+  cursor: pointer;
+}
+
+.remove {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(200px);
+  transition: all 1s;
+}
